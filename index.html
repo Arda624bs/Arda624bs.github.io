@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link href="styles/quiz.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="quiz-container">
+        <div class="question-container" id="question-1">
+            <div class="question">Wann haben wir uns zum ersten mal getroffen?</div>
+            <div class="answers">
+                <div class="answer" data-correct="false">02. August 2023</div>
+                <div class="answer" data-correct="false">04. August 2023</div>
+                <div class="answer" data-correct="true">01. August 2023</div>
+            </div>
+        </div>
+        <div class="question-container" id="question-2" style="display: none;">
+            <div class="question">Wo haben wir unseren ersten Ice-Shake getrunken?</div>
+            <div class="answers">
+                <div class="answer" data-correct="true">Wasserfontäne Walter-Benjamin-Platz</div>
+                <div class="answer" data-correct="false">Fonte de Neptuno Berlin</div>
+                <div class="answer" data-correct="false">Wasserfontäne Ceciliengärten</div>
+            </div>
+        </div>
+        <div class="question-container" id="question-3" style="display: none;">
+            <div class="question">Wann war unser erstes Telefonat?</div>
+            <div class="answers">
+                <div class="answer" data-correct="false">01. November 2020</div>
+                <div class="answer" data-correct="true">31. Oktober 2020</div>
+                <div class="answer" data-correct="false">30. Oktober 2020</div>
+            </div>
+        </div>
+        <div class="question-container" id="question-4" style="display: none;">
+            <div class="question">Bist du bereit für die letzte Frage?</div>
+            <div class="answers">
+                <div class="answer" data-correct="true">JA BIN ICH!!</div>
+                <div class="answer" data-correct="true">JAWOHL!</div>
+                <div class="answer" data-correct="true">Natürlich, was für eine Frage!</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/quiz.js"></script>
+</body>
+</html>
